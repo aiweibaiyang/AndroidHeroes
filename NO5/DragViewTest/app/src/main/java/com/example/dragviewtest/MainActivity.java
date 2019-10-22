@@ -17,4 +17,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, DragViewTest.class));
     }
 
+    public void btnViewGroup(View view) {
+        startActivity(new Intent(this, DragViewGroupTest.class));
+    }
 }
