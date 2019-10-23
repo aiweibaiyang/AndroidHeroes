@@ -16,4 +16,13 @@ public class MainActivity extends AppCompatActivity {
     public void btnPrimaryColor(View view) {
         startActivity(new Intent(this, PrimaryColor.class));
     }
+
+    public void btnColorMatrix(View view) {
+        startActivity(new Intent(this, ColorMatrix.class));
+    }
+
+    public void btnPixelsEffect(View view) {
+        startActivity(new Intent(this, PixelsEffect.class));
+    }
+
 }
