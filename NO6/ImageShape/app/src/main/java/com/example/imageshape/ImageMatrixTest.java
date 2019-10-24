@@ -39,6 +39,7 @@ public class ImageMatrixTest extends AppCompatActivity {
         });
     }
 
+    //向网格中添加数据
     private void addEts(){
         for (int i = 0; i < 9; i ++){
             EditText et = new EditText(ImageMatrixTest.this);
@@ -48,6 +49,7 @@ public class ImageMatrixTest extends AppCompatActivity {
         }
     }
 
+    //获取网格中的数据
     private void getImageMatrix(){
         for (int i = 0; i < 9; i ++){
             EditText et = mETs[i];
@@ -55,6 +57,7 @@ public class ImageMatrixTest extends AppCompatActivity {
         }
     }
 
+    //初始化网格中的数据
     private void initImageMatrix(){
         for (int i = 0; i < 9; i++) {
             if (i % 4 == 0) {
@@ -68,13 +71,13 @@ public class ImageMatrixTest extends AppCompatActivity {
     public void change(View view){
         getImageMatrix();
         Matrix matrix = new Matrix();
-        matrix.setValues(mImageMatrix);
+        matrix.setValues(mImageMatrix);//将一维数组转为图形变换矩阵
 
-        mMyView.setImageAndMatrix(mBitmap, matrix);
-        mMyView.invalidate();
+        mMyView.setImageAndMatrix(mBitmap, matrix);//ImageMatrixView中的方法
+        mMyView.invalidate();//刷新mMyView
     }
 
-    public void resset(View view){
+    public void reset(View view){
         initImageMatrix();
         getImageMatrix();
         Matrix matrix = new Matrix();

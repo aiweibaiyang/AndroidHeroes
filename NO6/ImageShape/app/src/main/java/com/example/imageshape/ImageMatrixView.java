@@ -46,6 +46,6 @@ public class ImageMatrixView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         canvas.drawBitmap(mBitmap, 0, 0, null);
-        canvas.drawBitmap(mBitmap, mMatrix, null);
+        canvas.drawBitmap(mBitmap, mMatrix, null);//根据变换矩阵绘制图形
     }
 }
