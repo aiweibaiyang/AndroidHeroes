@@ -17,4 +17,8 @@ public class MainActivity extends Activity {
     public void btnImageMatrix(View view) {
         startActivity(new Intent(this, ImageMatrixTest.class));
     }
+
+    public void btnFlag(View view) {
+        startActivity(new Intent(this, FlagBitmapMeshTest.class));
+    }
 }
