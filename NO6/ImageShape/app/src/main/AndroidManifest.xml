@@ -18,7 +18,9 @@
         <activity
             android:name=".ImageMatrixTest"
             android:screenOrientation="portrait" />
-        <activity android:name=".FlagBitmapMeshTest"></activity>
+        <activity android:name=".FlagBitmapMeshTest" />
+        <activity android:name=".XfermodeViewTest" />
+        <activity android:name=".ReflectViewTest"></activity>
     </application>
 
 </manifest>

@@ -17,4 +17,22 @@
         android:layout_height="wrap_content"
         android:onClick="btnFlag"
         android:text="Flag" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnPorterDuffXfermode"
+        android:text="PorterDuffXfermode" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnRoundRect"
+        android:text="RoundRect" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnReflect"
+        android:text="Reflect" />
 </LinearLayout>

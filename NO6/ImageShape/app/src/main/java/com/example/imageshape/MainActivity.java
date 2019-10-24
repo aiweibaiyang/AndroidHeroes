@@ -21,4 +21,16 @@ public class MainActivity extends Activity {
     public void btnFlag(View view) {
         startActivity(new Intent(this, FlagBitmapMeshTest.class));
     }
+
+    public void btnPorterDuffXfermode(View view) {
+        startActivity(new Intent(this, XfermodeViewTest.class));
+    }
+
+    public void btnReflect(View view) {
+        startActivity(new Intent(this, ReflectViewTest.class));
+    }
+
+//    public void btnRoundRect(View view) {
+//        startActivity(new Intent(this, RoundRectTest.class));
+//    }
 }
