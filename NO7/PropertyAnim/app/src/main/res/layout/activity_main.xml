@@ -14,4 +14,25 @@
         android:text="ObjectAnimator"
         android:layout_margin="10dp"
         android:onClick="btnObjectAnimator" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PropertyValuesHolder"
+        android:layout_margin="10dp"
+        android:onClick="btnPropertyValuesHolder" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimatorSet"
+        android:layout_margin="10dp"
+        android:onClick="btnAnimatorSet" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScaleX"
+        android:layout_margin="10dp"
+        android:onClick="btnScaleX" />
 </LinearLayout>
