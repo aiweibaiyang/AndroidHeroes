@@ -40,11 +40,11 @@
         android:onClick="btnScale" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scale_Self"
-        android:layout_margin="10dp"
-        android:onClick="btnScaleSelf" />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Scale_Self"
+    android:layout_margin="10dp"
+    android:onClick="btnScaleSelf" />
 
     <Button
         android:layout_width="wrap_content"
